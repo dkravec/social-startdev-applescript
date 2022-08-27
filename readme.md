@@ -11,7 +11,7 @@ Created by Daniel Kravec, on January 14, 2022.
 - Makes it run docker first. (otherwise it wont run mongo).
 
 ### v1.0 (3.2022.01.15)
-- 
+- after running docker, it cds into backend, and runs server.
 
 ### v1.0 (4.2022.02.21)
 - 
