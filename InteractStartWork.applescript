@@ -1,4 +1,6 @@
-do shell script "open /Applications/Docker.app"
+tell application "Docker"
+	reopen
+end tell
 
 tell application "Terminal"
 	reopen
@@ -11,4 +13,4 @@ tell application "Visual Studio Code"
 end tell
 
 tell application "Visual Studio Code" to open "/Users/daniel/Developer/main-projects/social-media"
-tell application "Visual Studio Code" to open "/Users/daniel/Developer/main-projects/social-media/social-frontend-plain"
+tell application "Visual Studio Code" to open "/Users/daniel/Developer/main-projects/social-media/social-frontend-plain/html"
