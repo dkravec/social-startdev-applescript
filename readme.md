@@ -14,7 +14,10 @@ Created by Daniel Kravec, on January 14, 2022.
 - after running docker, it cds into backend, and runs server.
 
 ### v1.0 (4.2022.02.21)
-- 
+- Opens Visual Studio Code Windows before opening Termina+commands.
+- Added delays once terminal is opened.
+    - 15 once it opens, (so docker could properly open before mongo start)
+    - 5 after running mongo start, so it could properly have time, then runs server.
 
 ### v1.0.1 (5.2022.08.27)
 - 
