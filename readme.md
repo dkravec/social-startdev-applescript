@@ -19,5 +19,6 @@ Created by Daniel Kravec, on January 14, 2022.
     - 15 once it opens, (so docker could properly open before mongo start)
     - 5 after running mongo start, so it could properly have time, then runs server.
 
-### v1.0.1 (5.2022.08.27)
-- 
+### v1.0.1 (5.2022.08.28)
+- Creates a backup of the database. (gets the data and calls the folder that) /Developer/mongo_backups/(date)/ 
+- Added comments to code.
